@@ -1,0 +1,353 @@
+html, body {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, img, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+  display: block;
+}
+
+header {
+  display: block;
+}
+
+body {
+  text-align: center;
+  font-size: 100%;
+  line-height: 18px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #636363;
+  line-height: 1.0em;
+  font-weight: normal;
+  padding: 0px 0px 0px 0px;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+a {
+  outline: none;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f70;
+  text-decoration: none;
+}
+
+#header-container .nav {
+  min-height: 36px;
+}
+
+.wrapper {
+  text-align: left;
+  margin: 0 auto;
+  width: 876px;
+  font-size: 14px;
+  position: relative;
+}
+
+.clear:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#header-container .title {
+  top: 50px;
+  left: 100px;
+  position: absolute;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+#header-container .pasang {
+  position: relative;
+  font-size: 17px;
+  font-weight: 200px;
+  line-height: 15px;
+  float: right;
+  margin-top: 44px;
+  margin-bottom: 15px;
+  padding: 8px 21px 9px 35px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: #ff7700;
+  color: #fff;
+}
+
+#header-container img {
+  border-radius: 50%;
+  padding: 5px;
+  width: 150px;
+  margin-left: -40px;
+  float: left;
+}
+
+#header-container .pasang:hover {
+  background: #ffa454;
+  color: #fff;
+  cursor: pointer;
+}
+
+#header-container .pasang span {
+  background-color: #FF7700;
+  color: #FFF;
+}
+
+#header-container .pasang:hover span {
+  background: #ffa454;
+  color: #fff;
+}
+
+#header-container .pasang:before {
+  position: absolute;
+  width: 16px;
+  height: 2px;
+  top: 15px;
+  left: 10px;
+  content: ' ';
+  background: #fff;
+}
+
+#header-container .pasang:after {
+  position: absolute;
+  width: 2px;
+  height: 16px;
+  top: 8px;
+  left: 17px;
+  content: ' ';
+  background: #fff;
+}
+
+#header-container .navi .akun {
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 15px;
+  margin-top: 46px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+  padding: 6px 20px 8px;
+  float: right;
+}
+
+#header-container .navi .akun>li {
+  margin-left: 20px;
+  display: -moz-inline-box;
+  display: inline-block;
+  zoom: 1;
+}
+
+#header-container .navi .akun img {
+  margin: -8px 5px 8px 0px;
+  height: 20px;
+  width: 25px;
+}
+
+form.cari {
+  background: #f5f5f5;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+form.cari fieldset {
+  padding: 18px 15px;
+}
+
+#body-container .cari img {
+  height: 30px;
+  border: none;
+  -webkit-border-radius: 3px;
+  border-radius: 3px 0px 0px 3px;
+  float: left;
+  margin-left: 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+#body-container .cari .lokasi input {
+  width: 40%;
+  padding: 4px 0px;
+  border: none;
+  background: #fff;
+  height: 22px;
+  font-size: 15px;
+  font-weight: 200;
+  -webkit-border-radius: 3px;
+  border-radius: 0px 3px 3px 0px;
+  float: left;
+  position: relative;
+}
+
+#body-container .cari .iklan input {
+  width: 40%;
+  padding: 4px 0px;
+  border: none;
+  background: #fff;
+  height: 22px;
+  font-size: 15px;
+  font-weight: 200;
+  -webkit-border-radius: 3px;
+  border-radius: 0px 3px 3px 0px;
+  float: left;
+  position: relative;
+}
+
+#body-container .cari .tombolcari input {
+  height: 30px;
+  padding-left: 0px;
+  padding-right: 15px;
+  font-size: 20px;
+  font-weight: normal;
+  border-radius: 0px 3px 3px 0px;
+  background-color: #7748a2;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+}
+
+#body-container .cari .tombolcari:hover {
+  text-decoration: none;
+}
+
+#body-container .mainmenu {
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+#body-container .mainmenu .submenu {
+  width: 50%;
+  float: left;
+  position: relative;
+}
+
+#body-container .mainmenu table.menu {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  font-size: 11px;
+}
+
+#body-container .mainmenu table.menu td {
+  border-left: 1px solid #f8f8f8;
+  border-top: 1px solid #f8f8f8;
+  vertical-align: top;
+  text-align: center;
+}
+
+#body-container .mainmenu table.menu div.title {
+  line-height: 16px;
+  font-size: 15px;
+  font-weight: normal;
+  padding: 0 8px 8px;
+  margin-top: 10px;
+}
+
+#body-container .mainmenu table.menu div.icon {
+  position: relative;
+  height: 65px;
+  font-size: 13px;
+  font-weight: 200;
+}
+
+#footer {
+  background: #e2e2e2;
+  margin-top: 205px;
+  padding-bottom: 10px;
+  position: relative;
+  padding-top: 10px;
+}
+
+#footer:before {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  height: 206px;
+  background: url('../img/footer-background.png') no-repeat 50% 100%;
+  content: '';
+  border-bottom: 1px solid #b3b3b3;
+}
+
+#footer .main {
+  min-height: 204px;
+  font-size: 11px;
+}
+
+#footer .submain {
+  position: relative;
+  margin-top: 15px;
+}
+
+#footer .logo img {
+  width: 85px;
+  height: 85px;
+  background-position: 0px -85px;
+  float: left;
+}
+
+#footer .list-footer {
+  margin-left: 125px;
+}
+
+#footer .info {
+  max-width: 165px;
+  margin: 0px;
+  margin-right: 70px;
+  float: left;
+}
+
+#footer .info ul {
+  line-height: 16px;
+  font-size: 13px;
+  font-weight: 200;
+}
+
+#footer .info li {
+  margin: 3px 0px;
+  display: block;
+}
+
+#footer .info a {
+  color: #545456;
+  text-decoration: underline;
+}
+
+#footer .info a:hover {
+  color: #f70;
+}
+
+#footer .social {
+  padding-top: 7px;
+  min-height: 66px;
+  position: relative;
+  float: right;
+}
+
+#footer .social li {
+  margin-left: 20px;
+  float: left;
+  display: block;
+}
+
+#footer .social .twitter-count-vertical {
+  max-width: 58px;
+}
